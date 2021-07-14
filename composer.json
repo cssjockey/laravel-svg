@@ -11,8 +11,11 @@
   ],
   "homepage": "https://github.com/cssjockey/laravel-svg",
   "keywords": [
-    "Laravel",
-    "LaravelSvg"
+    "laravel",
+    "svg",
+    "laravel-svg",
+    "blade-svg",
+    "directives"
   ],
   "require": {
     "illuminate/support": "~7|~8"
