@@ -2,8 +2,8 @@
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
-[![Build Status][ico-travis]][link-travis]
-[![StyleCI][ico-styleci]][link-styleci]
+<!-- [![Build Status][ico-travis]][link-travis] -->
+<!-- [![StyleCI][ico-styleci]][link-styleci] -->
 
 This package enables a directive __@svg(..)__ which renders the SVG code from a given path or public URL.
 
