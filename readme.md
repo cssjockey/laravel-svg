@@ -61,6 +61,8 @@ __Example using style attribute:__
 </div>
 ```
 
+__IMPORTANT:__ If you wish to use `<span>` or any other non-block tag, then you must apply `style="display: inline-block"` to the that element.
+
 ## Changelog
 Please see the changelog for more information on what has changed recently.
 ## Todo:
