@@ -1,6 +1,6 @@
 {
   "name": "cssjockey/laravel-svg",
-  "description": "This package enables a directive @svg(..) which renders the svg code from given path or public url.",
+  "description": "This package enables a directive @svg(..) which renders the SVG code from the given path or public URL.",
   "license": "MIT",
   "authors": [
     {
