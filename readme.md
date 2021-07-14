@@ -1,17 +1,12 @@
 # Laravel Svg
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Total Downloads][ico-downloads]][link-downloads]
-<!-- [![Build Status][ico-travis]][link-travis] -->
-<!-- [![StyleCI][ico-styleci]][link-styleci] -->
-
 This package enables a directive __@svg(..)__ which renders the SVG code from a given path or public URL.
 
 This package includes, all free SVG icons from [feathericons](https://feathericons.com/) and [heroicons](https://heroicons.com/). However, you can add any SVG icons to your project from multiple local paths. See below for details.
 
 ## Installation
 
-Via Composer
+You can install the package via composer:
 
 ```bash
 $ composer require cssjockey/laravel-svg
@@ -77,15 +72,3 @@ Mohit Aneja
 All Contributors
 ## License
 MIT Please see the license for more information.
-
-[ico-version]: https://img.shields.io/packagist/v/cssjockey/laravel-svg.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/cssjockey/laravel-svg.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/cssjockey/laravel-svg/master.svg?style=flat-square
-[ico-styleci]: https://styleci.io/repos/12345678/shield
-
-[link-packagist]: https://packagist.org/packages/cssjockey/laravel-svg
-[link-downloads]: https://packagist.org/packages/cssjockey/laravel-svg
-[link-travis]: https://travis-ci.org/cssjockey/laravel-svg
-[link-styleci]: https://styleci.io/repos/12345678
-[link-author]: https://github.com/cssjockey
-[link-contributors]: ../../contributors
