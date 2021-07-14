@@ -49,14 +49,14 @@ The svgs are loaded with full width and height, you can wrap the directive in a 
 Example using tailwind width class:
 ```
 <div class="w-6">
-@svg('hero/wifi')
+    @svg('hero/wifi')
 </div>
 ```
 
 Example using style attribute:
 ```
 <div style="width:24px">
-@svg('hero/wifi')
+    @svg('hero/wifi')
 </div>
 ```
 
