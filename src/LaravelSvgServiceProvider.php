@@ -3,6 +3,7 @@
 namespace CSSJockey\LaravelSvg;
 
 use Illuminate\Filesystem\Filesystem;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\ServiceProvider;
 
 class LaravelSvgServiceProvider extends ServiceProvider
@@ -12,6 +13,10 @@ class LaravelSvgServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+        if (env('CJ_DEV', false)) {
+            Artisan::call('optimize:clear');
+        }
+
         $this->bootDirectives();
 
         // Publishing is only necessary when using the CLI.
