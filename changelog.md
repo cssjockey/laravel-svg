@@ -1,7 +1,7 @@
 # Change log
 
-__Version 1.0.3__ [Aug 04, 2021]
-- Enabled @svg directive to also accept icon string from variable.
+__Version 1.0.21__ [Aug 04, 2021]
+- Enabled @svg directive to also accept icon string from variables.
 
 - __Version 1.0.2__ [July 14, 2021]
 - Fixed dimensions issue for non-block level elements, such as `<span>`.
